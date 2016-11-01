@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
                 Log.i("Finished calling", "");
             } catch (android.content.ActivityNotFoundException ex) {
                 Toast.makeText(MainActivity.this,
-                        "Call faild, please try again later.", Toast.LENGTH_SHORT).show();
+                        "Call failed, please try again later.", Toast.LENGTH_SHORT).show();
             }
       // }
 
